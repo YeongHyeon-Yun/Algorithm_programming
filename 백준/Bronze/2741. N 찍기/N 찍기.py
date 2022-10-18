@@ -1,4 +1,1 @@
-num = int(input())
-
-for i in range(1, num+1):
-    print(i)
+print(*range(1,int(input())+1))
